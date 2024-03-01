@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PORTFOLIO WEBSITE FOR ALX</title>
+    <link rel="icon" type="favicon" href="Logo.png">
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/efa113e1b1.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div id="header">
+      <div class="container">
+        <nav>
+          <img src="Logo.png" class="logo" />
+          <ul id="sidemenu">
+            <li><a href="#header">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#elevator-pitch">Elevator Pitch</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <i class="fa-solid fa-xmark" onclick="closemenu()"></i>  
+          </ul>
+          <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+          <p>Solutions Architect</p>
+          <h1>
+            Hi, I'm <span>Nsuku Mathebula</span><br />
+            from South Africa
+          </h1>
+        </div>
+      </div>
+    </div>
+    <!---------about------->
+    <div id="about">
+      <div class="container">
+        <div class="row">
+          <div class="about-col-1"><img src="ME.jpg" /></div>
+          <div class="about-col-2">
+            <h1 class="subtitle">Bio</h1>
+            <p>
+              Nsuku Mathebula, a tenacious computer science student from the University of South Africa, is poised to graduate in 2025. As a skilled full stack web developer, Nsuku's proficiency spans the entire spectrum of web application creation, where his fusion of technical aptitude and artistic finesse crafts digital experiences that captivate. His journey doesn't stop there – currently pursuing AWS Solutions Architect certification through the esteemed ALX program, Nsuku showcases his commitment to cutting-edge technology and its integration into the corporate landscape. With a background as a sales consultant at Planet Fitness, he seamlessly merges his technical acumen with customer-centric values. Nsuku aspires to apply his holistic understanding as an AWS Solutions Architect within a corporate enterprise, offering innovative cloud solutions that bridge the gap between business objectives and technological advancement. Through dedication, relentless learning, and an unbridled passion for progress, Nsuku Mathebula emerges as a name to watch in the ever-evolving world of technology.
+
+
+            </p>
+            <div class="tab-titles">
+              <p class="tab-links active-link" onclick="opentab('skills')">
+                Skills
+              </p>
+              <p class="tab-links" onclick="opentab('experience')">
+                Experience
+              </p>
+              <p class="tab-links" onclick="opentab('education')">Education</p>
+            </div>
+            <div class="tab-contents active-tab" id="skills">
+              <ul>
+                <li>
+                  <span>UX/UI Designer</span><br />Designing Web/App Interfaces
+                </li>
+                <li>
+                  <span>Front-End Developer</span><br />Web/App Development<br />Android/IOS
+                  Apps
+                </li>
+                <!-- <li>
+                  <span>AWS Solutions Architect</span><br />Cloud Migration and
+                  Security
+                </li> -->
+              </ul>
+            </div>
+            <div class="tab-contents" id="experience">
+              <ul>
+                <li>
+                  <span>2019- 2020</span><br />Sales Consultant at Planet Fitness
+                </li>
+                <li>
+                  <span>2022 - 2023</span><br />Wordpress Web Developer for ASW
+                  Tutors
+                </li>
+                <li>
+                  <span>2023 - Current</span><br />Product Manager at ALX
+                  Foundations Course
+                </li>
+                <li>
+                  <span>2023 - Current</span><br />Front-End Web Developer for
+                  my personal website
+                </li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="education">
+              <ul>
+                <li>
+                  <span>2020 - Current</span><br />
+                  BSc in Physiotherapy at Wits University
+                </li>
+                <li>
+                  <span>2023 - Current</span><br />
+                  BSc in Computer Science at UNISA
+                </li>
+                <li><span>2023 - Current</span><br />ALX Foundation Course</li>
+                <li>
+                  <!-- <span>2023 - Current</span><br />AWS Solutions Architect
+                  Associate Certified
+                </li>
+                <li>
+                  <span>2023 - 2023</span><br />Full-Stack Web Developer
+                  Certificate at Udemy
+                </li> -->
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="elevator-pitch">
+      <div class="container">
+        <h1>Elevator Pitch</h1>
+        <video src="Elevator Pitch Vid.mp4" type="video/mp4"
+        autoplay></video>
+        <!-- <p>
+          "Hello there! I'm Nsuku Mathebula, and I'm thrilled to share my journey with you. I'm a computer science student at the University of South Africa, where I've been shaping my skills as a full-stack web developer. I find joy in creating captivating online experiences, from pixel-perfect front-end designs to robust back-end functionality.
+          
+          And speaking of business, I bring a unique twist to the table – sales experience. This expertise allows me to merge the worlds of technology and business seamlessly.  I understand not just the technical aspects but also the art of engaging clients and understanding their needs.
+          
+          Currently, I'm an active participant in the ALX program, a testament to my commitment to continuous learning and innovation. By combining my technical prowess, sales acumen, and relentless pursuit of growth, I'm poised to make a substantial impact in the tech industry. Let's connect and explore how I can contribute to your projects and goals. Looking forward to the possibilities!"
+         </p> -->
+      </div>
+    </div>
+    <!---------------services------------------->
+
+    <div id="services">
+      <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+          <div>
+            <i class="fa-brands fa-app-store"></i>
+            <h2>Web/App Developer</h2>
+            <p>Dynamic websites and Applications using the latest technologies to create responsive and interactive digital experience.</p>
+            <a href="#">Learn more</a>
+          </div>
+          <div>
+            <i class="fa-solid fa-crop-simple"></i>
+            <h2>UX/UI Designer</h2>
+            <p> Intuitive and visually appealing user interfaces designed to enhance user experience</p>
+            <a href="#">Learn more</a>
+          </div>
+          <div>
+            <i class="fa-solid fa-code"></i>
+            <h2>Full-Stack Developer</h2>
+            <p>End-end web solutions, handling both front and back-end development to deliver seamless and functinal websites.</p>
+            <a href="#">Learn more</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!---------------portfolio------------------------>
+
+    <div id="portfolio">
+      <div class="container">
+        <h1 class="sub-title">My Portfolio</h1>
+        <div class="portfolio-list">
+          <div class="work">
+            <img src="Wireframe.png" height="400" />
+            <div class="layer">
+              <h3>School Curriculum Learning App</h3>
+              <p>
+                The app provides learning content that caters to <br>all high school
+                curriculum across the country
+              </p>
+              <a href="Education Technology ScholarFi Pitchedeck_Milestone10.pdf" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></i></a>
+            </div>
+          </div>
+          <!-- <div class="work">
+            <img src="aswtutora.jpg" height="600" />
+            <div class="layer">
+              <h3>ASW Tutors Website</h3>
+              <p>
+                A tutoring website where you get to see all the services ASW
+                Tutors has to offer, including requesting for Tutors
+              </p>
+              <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></i></a>
+            </div> -->
+          <div class="work">
+            <img src="youtube.jpg" height="400" width="600"/>
+            <!-- <iframe  height="400" width="100%" src="https://youtu.be/UwVFUByLQPw"></iframe> -->
+            <div class="layer">
+              <h3>Presentation of ScholarFi App</h3>
+              <p>
+               A video presentation of the ScholarFi App <br>containing all content of the business idea
+              </p>
+              <a href="https://youtu.be/UwVFUByLQPw" target="_blank"><i class="fa-brands fa-youtube"></i></i></i></a>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+    <div id="aws-projects">
+      <div class="container">
+        <h1 class="sub-title">AWS PROJECTS</h1>
+        <div class="aws-portfolio-list">
+          <div class="work">
+            <img src="aws-larger-logo.png" alt="an image of an aws-projects">
+            <div class="layer">
+              <h3>Hosted a static website using Amazon S3 and Route 53</h3>
+              <p>I purchased a custom domain using Route 53, which I then connected with A configured S3 Bucket to host my portfolio static website</p>
+             <a href="www.techwithmanny.com" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="Social+Sharing+Image.png" height="330" alt="visualization of data">
+            <div class="layer">
+              <h3>Visualize Data using Amazon Quicksight</h3>
+              <p>Extracted data of the best selling Amazon items. Created an S3 Bucket to store the data, which i then visualized using Amazon Quicksight</p>
+              <a href="https://us-east-1.quicksight.aws.amazon.com/sn/analyses/95b18f13-2f1f-4517-9589-d4b9b77f82ef" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i> </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <!-- <a href="#" class="btn">See more</a> -->
+    <!--------------contact------------------>
+
+    <div id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="contact-left">
+            <h1 class="sub-title">Contact Me</h1>
+            <p><i class="fa-solid fa-paper-plane"></i>mathebulansuku@gmail.com</p>
+            <p><i class="fa-solid fa-phone"></i>0716108975</p>
+            <div class="social-icons">
+              <a href="https://www.instagram.com/manny_thetutor/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+              <a href="https://www.tiktok.com/@manny_thetutor?lang=en" target="_blank"><i class="fa-brands fa-tiktok"></i></a>
+              <a href="https://www.linkedin.com/in/nsuku-mathebula-76856ab0/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+            </div>
+            <a href="My-Latest-CV (1).pdf" download class=" btn btn2">Download CV</a>
+          </div>
+          <div class="contact-right">
+            <form name="submit-to-google-sheet">
+              <input type="text" name="Name" placeholder="Your Name" required >
+              <input name="email" type="email" placeholder="Your email" required>
+              <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+              <button type="submit" class="btn btn2">Submit</button>
+            </form>
+            <span id="msg"></span>
+          </div>
+        </div>
+      </div>
+      <div class="copyright">
+        <p>Copyright &copy; Nsuku. All rights reserved</p>
+      </div>
+    </div>
+
+    <script>
+      var tablinks = document.getElementsByClassName("tab-links");
+      var tabcontents = document.getElementsByClassName("tab-contents");
+
+      function opentab(tabname) {
+        for (tablink of tablinks) {
+          tablink.classList.remove("active-link");
+        }
+        for (tabcontent of tabcontents) {
+          tabcontent.classList.remove("active-tab");
+        }
+
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+      }
+    </script>
+
+    <script>
+
+      var sidemenu = document.getElementById("sidemenu")
+
+      function openmenu(){
+        sidemenu.style.right = "0";
+      }
+
+      function closemenu(){
+        sidemenu.style.right = "-200px"
+      }
+    </script>
+    <!-- <form name="submit-to-google-sheet">
+      <input name="email" type="email" placeholder="Email" required>
+      <button type="submit">Send</button>
+    </form> -->
+    
+    <script>
+      const scriptURL = 'https://script.google.com/macros/s/AKfycbwDY1Tujj_e0uNGsvR7apifmx8zs9n_yxOqiGz4NSFE8SvOU7b9QjqHWEH0pIUsyd6J/exec'
+      const form = document.forms['submit-to-google-sheet']
+      const msg = document.getElementById("msg")
+    
+      form.addEventListener('submit', e => {
+        e.preventDefault()
+        fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+          .then(response => {
+            msg.innerHTML = "Thank you for requesting our services, will be on contact within 48hrs"
+            setTimeout(function(){
+              msg.innerHTML = ""
+            },5000)
+            form.reset()
+          })
+          .catch(error => console.error('Error!', error.message))
+      })
+    </script>
+  </body>
+</html>
