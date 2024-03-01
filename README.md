@@ -26,8 +26,8 @@ You can easily host a static website on Amazon Simple Storage Service (Amazon S3
  
 - Choose the name of your new bucket. Choose the Properties tab. Scroll to the Tags panel. Choose Edit then Add tag and enter: 
 ```
-**Key:** Department 
-**Value:** Marketing 
+Key: Department 
+Value: Marketing 
 Choose Save changes to save the tag.
 ```
  
@@ -44,9 +44,9 @@ Choose Save changes to save the tag.
 - Choose Edit 
 - Configure the following settings:
  ``` 
-**Static web hosting:** Enable 
-**Hosting type:** Host a static website 
-**Index document:** index.html 
+Static web hosting: Enable 
+Hosting type: Host a static website 
+Index document: index.html 
 Note: You must enter this value, even though it is already displayed. Error document: error.html
 ```
 - Choose Save changes. 
@@ -73,7 +73,7 @@ After selecting all the files you would like to upload, choose Upload. After all
 
 - All the objects (files) that you uploaded in your S3 Bucket are private by default. 
 
-To make these objects accessible to the public: 
+**To make these objects accessible to the public:** 
 
 - Select all the uploaded objects. Go to the actions dropdown menu and choose Make public via ACL.  
 
