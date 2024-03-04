@@ -14,7 +14,7 @@ You can easily host a static website on Amazon Simple Storage Service (Amazon S3
 ## CREATE A BUCKET IN AMAZON S3 
  
 
-- In the AWS Management Console, on the Services menu, choose S3. Choose Create bucket 
+- In the **AWS Management Console**, on the Services menu, choose S3. Choose Create bucket 
  
 - An S3 bucket name is globally unique, and the namespace is shared by all AWS accounts. After you create a bucket, the name of that bucket cannot be used by another AWS account in any AWS Region unless you delete the bucket. 
  
